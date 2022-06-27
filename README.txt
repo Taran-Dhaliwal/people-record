@@ -1,0 +1,1 @@
+The output of project can be simply viewed in browser by opening the index.html file

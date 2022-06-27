@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+    background-color: #E0E0E0;
+}
+
+
+.container {
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: white;
+   border-radius: 10px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+  }
+}
+
+
+.name{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+img{
+    height: 8rem;
+    border-radius: 50%;
+    border: 1px solid;
+    margin: 20px;
+    margin-top: 30px;
+    border-color: #E5CCFF;
+}
+
+.student-info-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border:0px;
+    border-bottom: 1px solid;
+    border-color: #E5CCFF;
+    padding-bottom: 20px;
+} 
+
+p{
+    padding-left: 30px;    
+}
+
+
+
+.expander {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #A0A0A0;
+    background-color: white;
+    border: 0px;
+    font-size: 50px;
+  }
+  
+.extended.active {
+   
+    display:block;
+}
+  
+.extended {
+    
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.filter{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 96%;
+    border:none;
+    border-bottom: 1px solid;
+    border-color: grey;
+    font-size: 20px;
+    padding: 10px;
+    margin :2px
+    
+}
+
+
+.tag-input{
+    
+    margin: 20px;
+    margin-left: 30px;
+    border:none;
+    border-bottom: 1px solid;
+    border-color: grey;
+    font-size: 18px;
+}
+
+.tag{
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+  }
+  p{
+      font-size: 10px;
+      padding-left: 20px;
+  }
+  .name{
+    font-size: 15px;
+    }
+    .tag-input{ 
+        width: 50%;
+    }
+    .filter{
+        width: 93%;
+    }
+
+}
+
